@@ -1,5 +1,7 @@
 # dsh-proxy-plugin
 
+> [English](README.md) | [中文](README.zh.md)
+
 > 本插件属于 [dsh-plugins](https://github.com/DoiiarX/dsh-plugins) 合集，完整的自研插件索引见该仓库。
 
 Persistent DeepSeek Harness bundle that provides network proxy capability.
