@@ -1,5 +1,5 @@
 {
-  "name": "@local/dsh-proxy-plugin",
+  "name": "@doiiarx/dsh-proxy-plugin",
   "version": "0.2.0",
   "private": true,
   "type": "module",

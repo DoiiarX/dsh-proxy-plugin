@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: "@local/dsh-proxy-plugin",
+  id: "@doiiarx/dsh-proxy-plugin",
   factory: (require) => {
     const module = { exports: {} };
     const React = require("react");

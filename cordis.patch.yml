@@ -1,5 +1,5 @@
 - insert:
     - id: pn-proxy
-      name: '@local/dsh-proxy-plugin'
+      name: '@doiiarx/dsh-proxy-plugin'
       config:
         defaultProxy: 'socks5h://127.0.0.1:10808'
