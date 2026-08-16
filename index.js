@@ -1,15 +1,15 @@
 /** Failure-isolating Loader entry for the proxy provider plugin. */
-export const name = 'pn-proxy-supervisor'
+export const name = 'dsh-proxy-supervisor'
 export const inject = ['tools', 'settings']
 const SETTINGS_NS = 'local-proxy'
 
 function diagnostic(scope, error) {
   const detail = error instanceof Error ? `${error.name}: ${error.message}` : String(error)
-  return `[pn-proxy] ${scope} unavailable: ${detail}`
+  return `[dsh-proxy] ${scope} unavailable: ${detail}`
 }
 function report(ctx, scope, error) {
   const message = diagnostic(scope, error)
-  const logger = ctx.root?.logger?.('pn-proxy')
+  const logger = ctx.root?.logger?.('dsh-proxy')
   if (logger?.error) logger.error('%s', message)
   console.error(message)
 }
